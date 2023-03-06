@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Pedro Ribeiro</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <div class="topo container">
+            <div class="links-topo">
+                <nav class='icones-topo'>
+                    <a href="https://api.whatsapp.com/send/?phone=5521974137130" class="link-rede whatsapp" target="_blank"><img src="imagens/whatsapp.png" alt="whatsapp"></a>
+                    <a href="https://www.instagram.com/ribeiroph_/" class="link-rede" target="_blank"><img src="imagens/icon-instagram.png" alt="instagram"></a>
+                    <a href="https://www.linkedin.com/in/pedro-ribeiro-a59873146/" class="link-rede" target="_blank"><img src="imagens/icon-linkedin.png" alt="linkedin"></a>
+                    <a href="https://github.com/pedroh-ribeiro" class="link-rede" target="_blank"><img src="imagens/icon-github.png" alt="github"></a>
+                </nav>
+
+                <nav>
+                    <a href="#sobre" class="navegacao">Sobre mim</a>
+                    <a href="#projetos" class="navegacao">Projetos</a>
+                    <a href="#contato" class="navegacao">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class='secao'>
+        <div class="container">
+            <div class="titulo inicio">
+                <h1>Boas vindas!</h1>
+
+                <h2>É um prazer ter você aqui!</h2>
+            </div>
+            <div class="galeria-inicio">
+                <img class="tres-fotos" src="imagens/html_css_js.png" alt="">
+                <img class="python" src="imagens/python.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <main class="container secao" id="sobre">
+        <div class="titulo">
+            <h2>Sobre mim</h2>
+            <img class="perfil"src="imagens/perfil.jpg" alt="perfil">
+            <div>
+                <div class="texto">
+                    <p>
+                        Olá! Me chamo Pedro Ribeiro, tenho 29 anos e moro no Rio de Janeiro.
+                    </p>
+                    <p>
+                        Mesmo trabalhando no ramo de vendas desde sempre, lá no fundo eu sentia que tinha um pézinho na área de tecnologia. Foi lá no início da adolescência que tive meu primeiro contato com a programação, ao tentar replicar e alterar algumas funcionalidades de um jogo que eu era amarradão. Bom, no início não deu muito certo… fazia nenhuma ideia do que estava fazendo. 
+                        Mas de tanto persistir nessa ideia, acabei me encantando pela tecnologia.
+                    </p>
+                    <p>
+                        Com o passar dos anos, tive que priorizar outros assuntos, mas em 2022 consegui me dedicar totalmente à programação e comecei oficialmente meus estudos.
+                    </p>
+                    <p>
+                        Vem conhecer um pouquinho do meu trabalho!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <main class='container' id='projetos'>
+        <div class='titulo'>
+            <h2>Projetos</h2>
+        </div>
+        <div class="galeria-projetos texto">
+            <div>
+                <figure class="destaque">
+                    <a href="https://mario-jump-silk.vercel.app">
+                        <img class="miniatura imagem-projeto" src="imagens/mariojump.png" alt="mario-jump">
+                        <figcaption class="legenda-projeto">Super Mario Jump</figcaption>
+                    </a>
+                </figure>
+
+                <figure class="destaque">
+                    <a href="">
+                        <img class="miniatura imagem-projeto" src="imagens/projeto-pokedex.png" alt="pokedex">
+                        <figcaption class="legenda-projeto">Pokedex - Em breve!</figcaption>
+                    </a>
+                </figure>
+                
+
+            </div>
+        </div>
+    </main>
+
+    <main class="container" id="contato">
+        <div class="titulo">    
+            <h2>Contato</h2>
+        </div>
+        <div class='contato-redes'>
+            <div class='contato-link'>
+                <h4>Me encontre nas Redes Sociais:</h4>
+                <div class='redes-sociais'>
+                    <figure>
+                        <a href="https://api.whatsapp.com/send/?phone=5521974137130" target="_blank"><img src="imagens/whatsapp.png" alt="github" class='contato-rede'></a>
+                        <figcaption>WhatsApp</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://www.instagram.com/ribeiroph_/" target="_blank"><img src="imagens/icon-instagram.png" alt="instagram" class='contato-rede'></a>
+                        <figcaption>Instagram</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://www.linkedin.com/in/pedro-ribeiro-a59873146/" target="_blank"><img src="imagens/icon-linkedin.png" alt="linkedin" class='contato-rede'></a>
+                        <figcaption>LinkedIn</figcaption>
+                    </figure>
+                    <figure>
+                        <a href="https://github.com/pedroh-ribeiro" target="_blank"><img src="imagens/icon-github.png" alt="github" class='contato-rede'></a>
+                        <figcaption>Github</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <form action='https://formsubmit.co/pedroh-ribeiro@outlook.com' method="post">
+                <fieldset>
+                    <div class='input-box'>
+                        <label>Nome</label>
+                        <input type="text" name="nome" placeholder="Seu nome" required id="placeholder"/>
+                    </div>
+                    <div class='input-box'>
+                        <label>E-mail</label>
+                        <input type="email" name="email" required placeholder="email@email.com.br" id="placeholder"/>
+                    </div>
+                    <div class='input-box'>
+                        <label>Telefone</label>
+                        <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX Opcional" id="placeholder"/>
+                    </div>
+                    <div class='input-box'>
+                        <label>Mensagem</label>
+                        <textarea name="texto" cols="30" rows="10"  placeholder="Sua mensagem aqui.
+Críticas construtivas, elogios e sugestões são sempre bem-vindas!" id="placeholder"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" onclick=alertEmail()>Enviar</button>
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://pedro-ribeiro-portfolio.vercel.app">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <div class="container">
+        <a href="#"><img src="imagens/topo.png" alt="" class="botao-topo"></a>
+    </div>
+
+    <footer>
+        <p>Site em construção!</p>
+    </footer>
+
+<script>
+    function alertEmail(){
+        alert("Obrigado pelo seu contato! Assim que possível enviarei uma resposta!")
+    }
+</script>
+</body>
+</html>
+
+

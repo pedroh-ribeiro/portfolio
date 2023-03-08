@@ -316,7 +316,7 @@ footer {
     bottom: 45%;
     left: 15%;
     color: #fff;
-    font-size: 32px;
+    font-size: clamp(18px, 3vw, 32px);
     text-transform: uppercase;
     display: none;
 }
